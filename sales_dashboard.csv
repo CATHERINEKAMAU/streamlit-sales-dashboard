@@ -1,0 +1,51 @@
+order_id,order_date,customer_id,product,category,unit_price,quantity,total_sales,region,sales_channel,payment_method
+ORD-1001,2023-01-04,CUST-442,Laptop,Electronics,1190.45,1,1190.45,Nairobi,Online,Card
+ORD-1002,2023-01-07,CUST-515,Mouse,Accessories,25.88,2,51.76,Kisumu,Retail Store,M-Pesa
+ORD-1003,2023-01-09,CUST-333,Office Chair,Furniture,228.77,1,228.77,Nakuru,Online,Cash
+ORD-1004,2023-01-10,CUST-289,Smartphone,Electronics,875.44,1,875.44,Mombasa,Wholesale,Card
+ORD-1005,2023-01-13,CUST-617,Desk,Furniture,302.12,1,302.12,Eldoret,Online,M-Pesa
+ORD-1006,2023-01-14,CUST-501,Headphones,Electronics,65.33,3,195.99,Kisumu,Retail Store,Cash
+ORD-1007,2023-01-18,CUST-744,Monitor,Electronics,411.55,1,411.55,Nairobi,Online,M-Pesa
+ORD-1008,2023-01-19,CUST-228,Keyboard,Accessories,47.6,2,95.2,Nakuru,Retail Store,Card
+ORD-1009,2023-01-22,CUST-662,Printer,Electronics,239.44,1,239.44,Mombasa,Online,Cash
+ORD-1010,2023-01-25,CUST-199,Backpack,Accessories,42.19,1,42.19,Eldoret,Wholesale,M-Pesa
+ORD-1011,2023-01-26,CUST-423,Smartphone,Electronics,699.5,1,699.5,Nairobi,Online,Card
+ORD-1012,2023-01-27,CUST-511,Office Chair,Furniture,210.33,2,420.66,Kisumu,Retail Store,Cash
+ORD-1013,2023-01-29,CUST-681,Desk,Furniture,337.88,1,337.88,Mombasa,Online,M-Pesa
+ORD-1014,2023-02-01,CUST-125,Monitor,Electronics,509.77,1,509.77,Eldoret,Wholesale,Cash
+ORD-1015,2023-02-04,CUST-476,Headphones,Electronics,79.41,2,158.82,Nakuru,Online,Card
+ORD-1016,2023-02-05,CUST-354,Mouse,Accessories,18.77,1,18.77,Nairobi,Retail Store,M-Pesa
+ORD-1017,2023-02-06,CUST-728,Laptop,Electronics,1344.6,1,1344.6,Kisumu,Online,Cash
+ORD-1018,2023-02-08,CUST-533,Printer,Electronics,354.1,1,354.1,Mombasa,Wholesale,Card
+ORD-1019,2023-02-11,CUST-492,Keyboard,Accessories,66.55,2,133.1,Eldoret,Online,M-Pesa
+ORD-1020,2023-02-12,CUST-492,Backpack,Accessories,35.29,1,35.29,Nairobi,Retail Store,Cash
+ORD-1021,2023-02-14,CUST-274,Desk,Furniture,289.44,1,289.44,Nakuru,Online,M-Pesa
+ORD-1022,2023-02-17,CUST-438,Monitor,Electronics,460.21,1,460.21,Kisumu,Wholesale,Cash
+ORD-1023,2023-02-18,CUST-564,Smartphone,Electronics,955.9,1,955.9,Mombasa,Online,Card
+ORD-1024,2023-02-20,CUST-612,Headphones,Electronics,33.88,3,101.64,Eldoret,Retail Store,M-Pesa
+ORD-1025,2023-02-23,CUST-771,Office Chair,Furniture,255.11,1,255.11,Nairobi,Online,Cash
+ORD-1026,2023-02-26,CUST-389,Laptop,Electronics,1401.32,1,1401.32,Kisumu,Retail Store,M-Pesa
+ORD-1027,2023-03-01,CUST-248,Mouse,Accessories,22.17,2,44.34,Nakuru,Online,Card
+ORD-1028,2023-03-03,CUST-655,Printer,Electronics,312.99,1,312.99,Mombasa,Wholesale,Cash
+ORD-1029,2023-03-04,CUST-593,Monitor,Electronics,566.77,1,566.77,Eldoret,Online,M-Pesa
+ORD-1030,2023-03-06,CUST-728,Keyboard,Accessories,58.42,1,58.42,Nairobi,Retail Store,Card
+ORD-1031,2023-03-09,CUST-299,Desk,Furniture,320.55,1,320.55,Kisumu,Online,M-Pesa
+ORD-1032,2023-03-10,CUST-433,Smartphone,Electronics,880.1,1,880.1,Nakuru,Wholesale,Cash
+ORD-1033,2023-03-12,CUST-501,Backpack,Accessories,29.9,1,29.9,Mombasa,Online,Card
+ORD-1034,2023-03-14,CUST-422,Laptop,Electronics,1233.44,1,1233.44,Eldoret,Retail Store,M-Pesa
+ORD-1035,2023-03-15,CUST-338,Headphones,Electronics,55.77,2,111.54,Nairobi,Online,Cash
+ORD-1036,2023-03-18,CUST-541,Mouse,Accessories,26.11,3,78.33,Kisumu,Wholesale,Card
+ORD-1037,2023-03-20,CUST-697,Printer,Electronics,280.6,1,280.6,Nakuru,Online,M-Pesa
+ORD-1038,2023-03-22,CUST-744,Desk,Furniture,410.22,1,410.22,Mombasa,Retail Store,Cash
+ORD-1039,2023-03-25,CUST-899,Monitor,Electronics,607.33,1,607.33,Eldoret,Online,Card
+ORD-1040,2023-03-26,CUST-162,Keyboard,Accessories,32.9,1,32.9,Nairobi,Wholesale,M-Pesa
+ORD-1041,2023-03-28,CUST-456,Office Chair,Furniture,230.11,1,230.11,Kisumu,Online,Cash
+ORD-1042,2023-04-01,CUST-533,Headphones,Electronics,88.4,1,88.4,Nakuru,Retail Store,Card
+ORD-1043,2023-04-03,CUST-488,Smartphone,Electronics,910.25,1,910.25,Mombasa,Online,M-Pesa
+ORD-1044,2023-04-04,CUST-562,Desk,Furniture,350.11,1,350.11,Eldoret,Wholesale,Cash
+ORD-1045,2023-04-07,CUST-781,Laptop,Electronics,1189.77,1,1189.77,Nairobi,Online,Card
+ORD-1046,2023-04-09,CUST-399,Monitor,Electronics,520.44,1,520.44,Kisumu,Retail Store,M-Pesa
+ORD-1047,2023-04-10,CUST-202,Mouse,Accessories,19.88,1,19.88,Nakuru,Online,Cash
+ORD-1048,2023-04-13,CUST-311,Printer,Electronics,260.9,1,260.9,Mombasa,Wholesale,Card
+ORD-1049,2023-04-14,CUST-555,Backpack,Accessories,40.22,1,40.22,Eldoret,Online,M-Pesa
+ORD-1050,2023-04-16,CUST-688,Keyboard,Accessories,52.17,2,104.34,Nairobi,Retail Store,Cash
