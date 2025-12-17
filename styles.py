@@ -15,13 +15,16 @@ def get_custom_css():
        THEME VARIABLES
        ============================================ */
     :root {
-        --primary-color: #6366f1;
-        --secondary-color: #8b5cf6;
+        --primary-color: #0E7490;
+        --secondary-color: #06B6D4;
         --success-color: #10b981;
         --warning-color: #f59e0b;
         --danger-color: #ef4444;
-        --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        --gradient-dark: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+        --teal-dark: #164E63;
+        --teal-medium: #0891B2;
+        --teal-light: #67E8F9;
+        --gradient-primary: linear-gradient(135deg, #0E7490 0%, #06B6D4 100%);
+        --gradient-dark: linear-gradient(180deg, #164E63 0%, #0E7490 100%);
     }
     
     /* ============================================
@@ -390,10 +393,10 @@ def get_footer_html(update_time):
 
 # Color schemes for different chart types
 CHART_COLORS = {
-    'primary': ['#6366f1', '#8b5cf6', '#a855f7', '#c084fc', '#d8b4fe'],
-    'purple_gradient': ['#4c1d95', '#5b21b6', '#6d28d9', '#7c3aed', '#8b5cf6'],
+    'primary': ['#0E7490', '#06B6D4', '#22D3EE', '#67E8F9', '#A5F3FC'],
+    'teal_gradient': ['#164E63', '#0E7490', '#0891B2', '#06B6D4', '#22D3EE'],
     'success': ['#065f46', '#047857', '#059669', '#10b981', '#34d399'],
-    'mixed': ['#6366f1', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6']
+    'mixed': ['#0E7490', '#10b981', '#f59e0b', '#ef4444', '#06B6D4']
 }
 
 
@@ -407,6 +410,6 @@ def get_plotly_theme():
         'font': {
             'family': 'Inter, sans-serif',
             'size': 12,
-            'color': '#1e293b'
+            'color': '#164E63'
         }
     }
