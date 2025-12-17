@@ -1,4 +1,8 @@
-
+# app.py
+"""
+Main Sales Dashboard Application
+Imports styling from styles.py module for clean separation of concerns
+"""
 
 import streamlit as st
 import pandas as pd
@@ -102,7 +106,7 @@ def create_regional_chart(df_filtered):
         title='Revenue by Region',
         labels={SALES_COL: 'Revenue (Ksh)', REGION_COL: 'Region'},
         color=SALES_COL,
-        color_continuous_scale='Purples',
+        color_continuous_scale=[[0, '#164E63'], [0.5, '#0891B2'], [1, '#67E8F9']],
         text=SALES_COL
     )
     
@@ -121,7 +125,7 @@ def create_category_pie_chart(df_filtered):
         values=SALES_COL,
         names=CATEGORY_COL,
         title='Revenue Distribution by Category',
-        color_discrete_sequence=px.colors.sequential.Purples_r
+        color_discrete_sequence=['#164E63', '#0E7490', '#0891B2', '#06B6D4', '#22D3EE', '#67E8F9']
     )
     fig.update_traces(textposition='inside', textinfo='percent+label')
     fig.update_layout(height=400)
@@ -142,7 +146,7 @@ def create_category_bar_chart(df_filtered):
         title='Revenue by Category',
         labels={SALES_COL: 'Revenue (Ksh)', CATEGORY_COL: 'Category'},
         color=SALES_COL,
-        color_continuous_scale='Purples',
+        color_continuous_scale=[[0, '#164E63'], [0.5, '#0891B2'], [1, '#67E8F9']],
         text=SALES_COL
     )
     fig.update_traces(texttemplate='Ksh %{text:,.0f}', textposition='outside')
